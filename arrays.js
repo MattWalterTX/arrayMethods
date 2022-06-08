@@ -25,3 +25,17 @@ console.log(boos);
 
 console.log(firstElement);
 // expected output: false
+
+
+// index positions: a index position refers to the spot in the array chain where a certain variable is currently.
+// they can be used in method functions to affect a speciffic piece of your variable code in many ways.
+// so far i have utilized in practice .pop .push .shift .unshift and .slice
+
+
+var numbers = [1, 2, 3];
+
+console.log(numbers.unshift(4, 5));
+// expected output: 5 (total number of index positions after adding 4,5)
+
+console.log(numbers);
+// expected output [4, 5, 1, 2, 3]
